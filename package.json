@@ -1,0 +1,16 @@
+{
+  "name": "iraqi-ai-ios",
+  "version": "1.0.0",
+  "private": true,
+  "description": "iOS wrapper for the Iraqi AI Lovable website",
+  "scripts": {
+    "build": "echo 'Static web content is already in www'"
+  },
+  "dependencies": {
+    "@capacitor/core": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3",
+    "@capacitor/ios": "^7.4.3"
+  }
+}
