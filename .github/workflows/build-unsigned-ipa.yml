@@ -1,7 +1,11 @@
 
 name: Build unsigned iOS IPA
 
-on:
+"on":
+  push:
+    branches:
+      - main
+  workflow_dispatch:
   workflow_dispatch:
 
 jobs:
@@ -48,4 +52,5 @@ jobs:
         with:
           name: Iraqi-AI-IPA
           path: build/Iraqi-AI.ipa
+        
 
